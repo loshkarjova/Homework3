@@ -5,6 +5,7 @@ import com.loshkareva.animals.Dog;
 
 
 public class Main {
+
     public static void main(String[] args) {
         Cat cat = new Cat("Murzik", "Siamese", 2, 0, 200);
 
@@ -23,8 +24,8 @@ public class Main {
         System.out.println(string1 + "The length of the obstacle for swimming: " + s +
                            "\nThe length of the obstacle for running: " + s3);
 
-
+        int counter = dog.getCounter();
+        System.out.println("\nTotal objects = " + counter);
     }
-
 
 }

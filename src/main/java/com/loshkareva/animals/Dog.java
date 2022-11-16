@@ -1,9 +1,6 @@
 package com.loshkareva.animals;
 
-import com.loshkareva.interfaces.IRun;
-import com.loshkareva.interfaces.ISwim;
-
-public class Dog extends Animal implements IRun, ISwim {
+public class Dog extends Animal {
 
     public Dog(String name, String kind, int age, int swimmingEndurance, int runningEndurance) {
         super(name, kind, age, swimmingEndurance, runningEndurance);
